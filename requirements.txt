@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+watchdog
+scapy
+requests
+bs4
+logging
+smtplib
+aiohttp
