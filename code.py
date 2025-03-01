@@ -4,13 +4,10 @@ import json
 import pandas as pd
 import smtplib
 import logging
-import socket
 import matplotlib.pyplot as plt
-from collections import defaultdict
+from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from scapy.all import *
-from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -18,7 +15,7 @@ from watchdog.events import FileSystemEventHandler
 logging.basicConfig(filename="log_analyzer.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Global Variables
-THREAT_IPS = set()  # Stores blacklisted IPs
+THREAT_IPS = set()
 ALERT_EMAIL = "your_email@example.com"
 SMTP_SERVER = "smtp.example.com"
 SMTP_PORT = 587
@@ -31,7 +28,7 @@ LOG_PATTERNS = {
     "brute_force": re.compile(r"(multiple failed login attempts)"),
     "suspicious_ip": re.compile(r"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"),
     "xss_attack": re.compile(r"(<script>|javascript:|onerror=)"),
-    "sql_injection": re.compile(r"(SELECT .* FROM|DROP TABLE|INSERT INTO|--|xp_)"),
+    "sql_injection": re.compile(r"(SELECT .* FROM|DROP TABLE|INSERT INTO|--|xp_)")
 }
 
 # Function to send alerts
@@ -65,13 +62,21 @@ def parse_log(file_path):
 
 # Function to analyze log lines for security threats
 def analyze_log_line(line):
+    detected_threats = []
     for attack, pattern in LOG_PATTERNS.items():
         match = pattern.search(line)
         if match:
             logging.warning(f"Detected {attack} in log: {line.strip()}")
-            send_alert(f"Security Alert: {attack}", f"Suspicious activity detected:\n{line.strip()}")
-            return {"timestamp": str(datetime.now()), "attack_type": attack, "log_entry": line.strip()}
-    return None
+            detected_threats.append({
+                "timestamp": str(datetime.now()),
+                "attack_type": attack,
+                "log_entry": line.strip()
+            })
+
+    if detected_threats:
+        save_to_json(detected_threats, "outputs/alerts.json")
+    
+    return detected_threats
 
 # Real-time log monitoring
 class LogMonitor(FileSystemEventHandler):
@@ -88,6 +93,12 @@ class LogMonitor(FileSystemEventHandler):
                 for line in new_lines:
                     analyze_log_line(line)
 
+# Function to save detected threats to JSON
+def save_to_json(data, filename):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)  # Ensure the output directory exists
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
+
 # Function to visualize log data
 def visualize_logs(log_data):
     df = pd.DataFrame(log_data)
@@ -96,41 +107,20 @@ def visualize_logs(log_data):
     attack_counts = df["attack_type"].value_counts()
 
     plt.figure(figsize=(10, 5))
-    attack_counts.plot(kind="bar")
+    attack_counts.plot(kind="bar", color="red")
     plt.title("Detected Security Threats")
     plt.xlabel("Attack Type")
     plt.ylabel("Count")
+    os.makedirs("outputs", exist_ok=True)  # Ensure the output directory exists
+    plt.savefig("outputs/log_analysis_graph.png")
     plt.show()
-
-# Network packet capture and analysis (Intrusion Detection)
-def monitor_network_traffic(interface="eth0"):
-    def packet_callback(packet):
-        if packet.haslayer(IP):
-            src_ip = packet[IP].src
-            if src_ip in THREAT_IPS:
-                logging.warning(f"Suspicious network traffic detected from {src_ip}")
-                send_alert("Suspicious Network Activity", f"Traffic detected from blacklisted IP: {src_ip}")
-
-    sniff(iface=interface, prn=packet_callback, store=False)
-
-# Function to detect anomalies using machine learning
-def detect_anomalies(log_data):
-    df = pd.DataFrame(log_data)
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
-    df["hour"] = df["timestamp"].dt.hour
-
-    unusual_activity = df.groupby("hour")["attack_type"].count().std()
-    threshold = df["attack_type"].count().mean() + (2 * unusual_activity)
-
-    anomalies = df[df["attack_type"].count() > threshold]
-    
-    if not anomalies.empty:
-        logging.warning(f"Anomaly detected: {anomalies}")
-        send_alert("Anomaly Detected in Logs", f"Unusual log activity detected:\n{anomalies}")
 
 # Main Function
 if __name__ == "__main__":
-    log_file = "server.log"
+    log_file = "example_logs/server.log"
+
+    # Ensure output directory exists
+    os.makedirs("outputs", exist_ok=True)
 
     # Start real-time monitoring
     event_handler = LogMonitor(log_file)
@@ -140,9 +130,7 @@ if __name__ == "__main__":
 
     # Parse initial logs
     logs = parse_log(log_file)
-    
-    # Visualize log data
-    visualize_logs(logs)
 
-    # Monitor network traffic for malicious activity
-    monitor_network_traffic(interface="eth0")
+    # Visualize log data
+    if logs:
+        visualize_logs(logs)
