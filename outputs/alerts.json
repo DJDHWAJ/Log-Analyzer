@@ -1,0 +1,7 @@
+[
+    {
+        "timestamp": "2025-03-01 03:11:03.285826",
+        "attack_type": "suspicious_ip",
+        "log_entry": "Jan 29 10:06:28 myserver Accepted password for user root from 203.0.113.160 port 16015 ssh2"
+    }
+]
