@@ -68,15 +68,15 @@ def analyze_log_line(line):
         if match:
             logging.warning(f"Detected {attack} in log: {line.strip()}")
             detected_threats.append({
-                "timestamp": str(datetime.now()),
+                "timestamp": str(datetime.now()),  # Ensure 'timestamp' is included
                 "attack_type": attack,
                 "log_entry": line.strip()
             })
 
     if detected_threats:
         save_to_json(detected_threats, "outputs/alerts.json")
-    
-    return detected_threats
+
+    return detected_threats if detected_threats else None
 
 # Real-time log monitoring
 class LogMonitor(FileSystemEventHandler):
@@ -101,7 +101,18 @@ def save_to_json(data, filename):
 
 # Function to visualize log data
 def visualize_logs(log_data):
+    if not log_data:  # Check if the logs list is empty
+        logging.warning("No log data available for visualization.")
+        print("No log data available for visualization.")
+        return
+    
     df = pd.DataFrame(log_data)
+
+    if "timestamp" not in df.columns:  # Ensure 'timestamp' exists
+        logging.error("Missing 'timestamp' column in log data")
+        print("Error: Missing 'timestamp' column in log data")
+        return
+
     df["timestamp"] = pd.to_datetime(df["timestamp"])
 
     attack_counts = df["attack_type"].value_counts()
@@ -111,9 +122,10 @@ def visualize_logs(log_data):
     plt.title("Detected Security Threats")
     plt.xlabel("Attack Type")
     plt.ylabel("Count")
-    os.makedirs("outputs", exist_ok=True)  # Ensure the output directory exists
+    os.makedirs("outputs", exist_ok=True)  # Ensure output directory exists
     plt.savefig("outputs/log_analysis_graph.png")
     plt.show()
+
 
 # Main Function
 if __name__ == "__main__":
@@ -130,6 +142,18 @@ if __name__ == "__main__":
 
     # Parse initial logs
     logs = parse_log(log_file)
+
+    print(f"Total logs processed: {len(logs)}")
+if len(logs) > 0:
+    print("First few logs:", logs[:5])  # Print first 5 logs for debugging
+
+# Flatten the list of lists before passing to pandas DataFrame
+flat_logs = [entry for sublist in logs for entry in (sublist if isinstance(sublist, list) else [sublist])]
+
+if flat_logs:  # Ensure there is data before visualization
+    visualize_logs(flat_logs)
+else:
+    print("No valid log entries found.")
 
     # Visualize log data
     if logs:
