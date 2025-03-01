@@ -1,0 +1,1000 @@
+Jan 29 10:07:45 myserver Failed password for invalid user admin from 192.168.1.148 port 38940 ssh2
+Jan 29 10:08:38 myserver System reboot initiated by root
+Jan 29 10:03:53 myserver Service apache2 restarted
+Jan 29 10:07:58 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:21 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:24 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:12 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:02 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:49 myserver Service apache2 restarted
+Jan 29 10:02:00 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:53 myserver Firewall: Dropped packet from 185.220.204.204 - potential port scan detected
+Jan 29 10:03:54 myserver Firewall: Dropped packet from 185.220.193.193 - potential port scan detected
+Jan 29 10:06:21 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:51 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:04 myserver Accepted password for user root from 203.0.113.217 port 19536 ssh2
+Jan 29 10:07:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:35 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:07 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:04 myserver Firewall: Dropped packet from 185.220.203.203 - potential port scan detected
+Jan 29 10:04:20 myserver System reboot initiated by root
+Jan 29 10:06:58 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:26 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:12 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:26 myserver Accepted password for user root from 203.0.113.49 port 14891 ssh2
+Jan 29 10:07:53 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:00 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:59 myserver Firewall: Dropped packet from 185.220.108.108 - potential port scan detected
+Jan 29 10:02:08 myserver Firewall: Dropped packet from 185.220.233.233 - potential port scan detected
+Jan 29 10:08:52 myserver Failed password for invalid user admin from 192.168.1.88 port 33654 ssh2
+Jan 29 10:00:23 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:28 myserver Accepted password for user root from 203.0.113.252 port 53748 ssh2
+Jan 29 10:05:23 myserver System reboot initiated by root
+Jan 29 10:07:40 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:14 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:29 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:44 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:55 myserver Failed password for invalid user admin from 192.168.1.22 port 5025 ssh2
+Jan 29 10:02:07 myserver Firewall: Dropped packet from 185.220.222.222 - potential port scan detected
+Jan 29 10:02:29 myserver System reboot initiated by root
+Jan 29 10:02:51 myserver Warning: High CPU usage detected
+Jan 29 10:00:24 myserver Warning: High CPU usage detected
+Jan 29 10:09:52 myserver System reboot initiated by root
+Jan 29 10:02:00 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:32 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:31 myserver Warning: High CPU usage detected
+Jan 29 10:00:47 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:59 myserver System reboot initiated by root
+Jan 29 10:01:25 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:55 myserver Accepted password for user root from 203.0.113.41 port 16965 ssh2
+Jan 29 10:09:49 myserver System reboot initiated by root
+Jan 29 10:01:59 myserver Failed password for invalid user admin from 192.168.1.38 port 42426 ssh2
+Jan 29 10:03:23 myserver System reboot initiated by root
+Jan 29 10:06:38 myserver Service apache2 restarted
+Jan 29 10:07:51 myserver Warning: High CPU usage detected
+Jan 29 10:06:49 myserver Service apache2 restarted
+Jan 29 10:06:03 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:40 myserver Firewall: Dropped packet from 185.220.45.45 - potential port scan detected
+Jan 29 10:02:03 myserver System reboot initiated by root
+Jan 29 10:07:30 myserver Accepted password for user root from 203.0.113.226 port 35095 ssh2
+Jan 29 10:02:36 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:55 myserver Service apache2 restarted
+Jan 29 10:00:14 myserver Firewall: Dropped packet from 185.220.143.143 - potential port scan detected
+Jan 29 10:01:07 myserver Service apache2 restarted
+Jan 29 10:07:52 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:53 myserver Firewall: Dropped packet from 185.220.64.64 - potential port scan detected
+Jan 29 10:06:38 myserver Failed password for invalid user admin from 192.168.1.172 port 36701 ssh2
+Jan 29 10:04:36 myserver Accepted password for user root from 203.0.113.174 port 64325 ssh2
+Jan 29 10:02:12 myserver Service apache2 restarted
+Jan 29 10:01:46 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:46 myserver Warning: High CPU usage detected
+Jan 29 10:07:49 myserver Service apache2 restarted
+Jan 29 10:06:11 myserver Firewall: Dropped packet from 185.220.97.97 - potential port scan detected
+Jan 29 10:01:36 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:35 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:59 myserver System reboot initiated by root
+Jan 29 10:02:51 myserver Accepted password for user root from 203.0.113.51 port 58323 ssh2
+Jan 29 10:08:27 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:42 myserver Firewall: Dropped packet from 185.220.247.247 - potential port scan detected
+Jan 29 10:04:46 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:54 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:48 myserver Warning: High CPU usage detected
+Jan 29 10:05:47 myserver Failed password for invalid user admin from 192.168.1.118 port 25537 ssh2
+Jan 29 10:08:46 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:34 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:02 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:51 myserver Firewall: Dropped packet from 185.220.33.33 - potential port scan detected
+Jan 29 10:07:40 myserver Warning: High CPU usage detected
+Jan 29 10:01:45 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:15 myserver Failed password for invalid user admin from 192.168.1.60 port 45249 ssh2
+Jan 29 10:02:29 myserver Service apache2 restarted
+Jan 29 10:02:49 myserver Accepted password for user root from 203.0.113.138 port 6945 ssh2
+Jan 29 10:09:01 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:54 myserver Accepted password for user root from 203.0.113.180 port 25968 ssh2
+Jan 29 10:08:30 myserver Service apache2 restarted
+Jan 29 10:04:46 myserver Service apache2 restarted
+Jan 29 10:00:48 myserver Accepted password for user root from 203.0.113.157 port 16764 ssh2
+Jan 29 10:07:20 myserver Firewall: Dropped packet from 185.220.162.162 - potential port scan detected
+Jan 29 10:09:13 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:44 myserver Warning: High CPU usage detected
+Jan 29 10:07:29 myserver System reboot initiated by root
+Jan 29 10:04:48 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:45 myserver Accepted password for user root from 203.0.113.118 port 54085 ssh2
+Jan 29 10:07:42 myserver Warning: High CPU usage detected
+Jan 29 10:05:06 myserver System reboot initiated by root
+Jan 29 10:03:58 myserver Warning: High CPU usage detected
+Jan 29 10:02:06 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:43 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:58 myserver Service apache2 restarted
+Jan 29 10:03:54 myserver Accepted password for user root from 203.0.113.134 port 12127 ssh2
+Jan 29 10:06:50 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:50 myserver Failed password for invalid user admin from 192.168.1.11 port 46618 ssh2
+Jan 29 10:04:38 myserver Warning: High CPU usage detected
+Jan 29 10:07:13 myserver System reboot initiated by root
+Jan 29 10:06:00 myserver Accepted password for user root from 203.0.113.102 port 42864 ssh2
+Jan 29 10:01:18 myserver Accepted password for user root from 203.0.113.43 port 51715 ssh2
+Jan 29 10:03:45 myserver Failed password for invalid user admin from 192.168.1.13 port 33649 ssh2
+Jan 29 10:06:36 myserver Accepted password for user root from 203.0.113.87 port 47148 ssh2
+Jan 29 10:01:15 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:14 myserver Firewall: Dropped packet from 185.220.103.103 - potential port scan detected
+Jan 29 10:06:15 myserver Accepted password for user root from 203.0.113.83 port 17004 ssh2
+Jan 29 10:02:55 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:10 myserver Firewall: Dropped packet from 185.220.28.28 - potential port scan detected
+Jan 29 10:01:04 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:15 myserver Firewall: Dropped packet from 185.220.254.254 - potential port scan detected
+Jan 29 10:01:51 myserver Warning: High CPU usage detected
+Jan 29 10:08:42 myserver Accepted password for user root from 203.0.113.148 port 58826 ssh2
+Jan 29 10:03:07 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:39 myserver Service apache2 restarted
+Jan 29 10:03:02 myserver Service apache2 restarted
+Jan 29 10:06:33 myserver Warning: High CPU usage detected
+Jan 29 10:06:46 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:22 myserver Warning: High CPU usage detected
+Jan 29 10:01:02 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:41 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:25 myserver Service apache2 restarted
+Jan 29 10:07:42 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:47 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:11 myserver Firewall: Dropped packet from 185.220.54.54 - potential port scan detected
+Jan 29 10:02:39 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:39 myserver Failed password for invalid user admin from 192.168.1.139 port 21760 ssh2
+Jan 29 10:09:37 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:37 myserver Accepted password for user root from 203.0.113.181 port 24887 ssh2
+Jan 29 10:00:44 myserver Firewall: Dropped packet from 185.220.170.170 - potential port scan detected
+Jan 29 10:02:28 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:32 myserver Service apache2 restarted
+Jan 29 10:02:44 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:40 myserver System reboot initiated by root
+Jan 29 10:09:19 myserver Warning: High CPU usage detected
+Jan 29 10:04:15 myserver Accepted password for user root from 203.0.113.206 port 56303 ssh2
+Jan 29 10:04:12 myserver Accepted password for user root from 203.0.113.180 port 59307 ssh2
+Jan 29 10:03:33 myserver Service apache2 restarted
+Jan 29 10:05:12 myserver Service apache2 restarted
+Jan 29 10:07:38 myserver Accepted password for user root from 203.0.113.76 port 51567 ssh2
+Jan 29 10:02:08 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:00:28 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:23 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:06 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:26 myserver Accepted password for user root from 203.0.113.78 port 7663 ssh2
+Jan 29 10:09:58 myserver Failed password for invalid user admin from 192.168.1.96 port 18983 ssh2
+Jan 29 10:05:51 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:26 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:13 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:23 myserver Service apache2 restarted
+Jan 29 10:02:48 myserver Warning: High CPU usage detected
+Jan 29 10:08:40 myserver Service apache2 restarted
+Jan 29 10:00:13 myserver Warning: High CPU usage detected
+Jan 29 10:02:18 myserver Firewall: Dropped packet from 185.220.163.163 - potential port scan detected
+Jan 29 10:03:18 myserver System reboot initiated by root
+Jan 29 10:06:45 myserver Warning: High CPU usage detected
+Jan 29 10:00:27 myserver System reboot initiated by root
+Jan 29 10:05:58 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:51 myserver System reboot initiated by root
+Jan 29 10:07:46 myserver Firewall: Dropped packet from 185.220.254.254 - potential port scan detected
+Jan 29 10:01:14 myserver Accepted password for user root from 203.0.113.194 port 12604 ssh2
+Jan 29 10:03:15 myserver Firewall: Dropped packet from 185.220.179.179 - potential port scan detected
+Jan 29 10:08:28 myserver Warning: High CPU usage detected
+Jan 29 10:05:11 myserver Accepted password for user root from 203.0.113.178 port 29715 ssh2
+Jan 29 10:05:23 myserver Firewall: Dropped packet from 185.220.38.38 - potential port scan detected
+Jan 29 10:03:14 myserver Firewall: Dropped packet from 185.220.246.246 - potential port scan detected
+Jan 29 10:04:06 myserver Firewall: Dropped packet from 185.220.237.237 - potential port scan detected
+Jan 29 10:06:57 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:28 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:15 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:29 myserver Warning: High CPU usage detected
+Jan 29 10:00:43 myserver System reboot initiated by root
+Jan 29 10:09:17 myserver Accepted password for user root from 203.0.113.30 port 52961 ssh2
+Jan 29 10:02:51 myserver Firewall: Dropped packet from 185.220.72.72 - potential port scan detected
+Jan 29 10:01:14 myserver System reboot initiated by root
+Jan 29 10:03:49 myserver Failed password for invalid user admin from 192.168.1.100 port 12182 ssh2
+Jan 29 10:09:06 myserver Failed password for invalid user admin from 192.168.1.252 port 17005 ssh2
+Jan 29 10:00:20 myserver Firewall: Dropped packet from 185.220.233.233 - potential port scan detected
+Jan 29 10:04:57 myserver System reboot initiated by root
+Jan 29 10:06:22 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:27 myserver Firewall: Dropped packet from 185.220.252.252 - potential port scan detected
+Jan 29 10:04:53 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:41 myserver System reboot initiated by root
+Jan 29 10:03:44 myserver Warning: High CPU usage detected
+Jan 29 10:05:43 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:38 myserver Failed password for invalid user admin from 192.168.1.228 port 10964 ssh2
+Jan 29 10:04:19 myserver Failed password for invalid user admin from 192.168.1.25 port 32897 ssh2
+Jan 29 10:05:16 myserver Service apache2 restarted
+Jan 29 10:03:16 myserver Failed password for invalid user admin from 192.168.1.87 port 45133 ssh2
+Jan 29 10:02:37 myserver Failed password for invalid user admin from 192.168.1.212 port 55524 ssh2
+Jan 29 10:02:12 myserver Failed password for invalid user admin from 192.168.1.167 port 5825 ssh2
+Jan 29 10:00:48 myserver Failed password for invalid user admin from 192.168.1.37 port 61429 ssh2
+Jan 29 10:00:43 myserver Firewall: Dropped packet from 185.220.23.23 - potential port scan detected
+Jan 29 10:00:41 myserver Failed password for invalid user admin from 192.168.1.132 port 54814 ssh2
+Jan 29 10:03:26 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:32 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:46 myserver Service apache2 restarted
+Jan 29 10:01:04 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:57 myserver Firewall: Dropped packet from 185.220.181.181 - potential port scan detected
+Jan 29 10:03:54 myserver System reboot initiated by root
+Jan 29 10:09:28 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:12 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:26 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:10 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:38 myserver Firewall: Dropped packet from 185.220.110.110 - potential port scan detected
+Jan 29 10:09:44 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:50 myserver Firewall: Dropped packet from 185.220.114.114 - potential port scan detected
+Jan 29 10:08:03 myserver Accepted password for user root from 203.0.113.104 port 25780 ssh2
+Jan 29 10:08:18 myserver Warning: High CPU usage detected
+Jan 29 10:09:07 myserver Warning: High CPU usage detected
+Jan 29 10:03:47 myserver Firewall: Dropped packet from 185.220.226.226 - potential port scan detected
+Jan 29 10:05:36 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:27 myserver Warning: High CPU usage detected
+Jan 29 10:08:08 myserver System reboot initiated by root
+Jan 29 10:02:27 myserver Warning: High CPU usage detected
+Jan 29 10:02:46 myserver Firewall: Dropped packet from 185.220.218.218 - potential port scan detected
+Jan 29 10:07:12 myserver Service apache2 restarted
+Jan 29 10:02:01 myserver Warning: High CPU usage detected
+Jan 29 10:09:25 myserver Failed password for invalid user admin from 192.168.1.202 port 32329 ssh2
+Jan 29 10:09:59 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:50 myserver System reboot initiated by root
+Jan 29 10:00:12 myserver Failed password for invalid user admin from 192.168.1.204 port 50498 ssh2
+Jan 29 10:07:17 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:48 myserver Firewall: Dropped packet from 185.220.193.193 - potential port scan detected
+Jan 29 10:09:22 myserver System reboot initiated by root
+Jan 29 10:05:19 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:24 myserver Accepted password for user root from 203.0.113.1 port 26632 ssh2
+Jan 29 10:07:11 myserver Accepted password for user root from 203.0.113.202 port 2489 ssh2
+Jan 29 10:06:54 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:07 myserver Failed password for invalid user admin from 192.168.1.128 port 53676 ssh2
+Jan 29 10:00:12 myserver Service apache2 restarted
+Jan 29 10:01:24 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:05 myserver Warning: High CPU usage detected
+Jan 29 10:08:17 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:25 myserver Service apache2 restarted
+Jan 29 10:00:24 myserver Service apache2 restarted
+Jan 29 10:01:51 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:56 myserver Failed password for invalid user admin from 192.168.1.99 port 26301 ssh2
+Jan 29 10:03:43 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:49 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:37 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:01 myserver Firewall: Dropped packet from 185.220.171.171 - potential port scan detected
+Jan 29 10:01:22 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:26 myserver Warning: High CPU usage detected
+Jan 29 10:06:53 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:13 myserver Service apache2 restarted
+Jan 29 10:05:58 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:42 myserver Failed password for invalid user admin from 192.168.1.72 port 20376 ssh2
+Jan 29 10:04:48 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:00 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:27 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:24 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:08 myserver Firewall: Dropped packet from 185.220.103.103 - potential port scan detected
+Jan 29 10:01:19 myserver Service apache2 restarted
+Jan 29 10:07:50 myserver Service apache2 restarted
+Jan 29 10:05:16 myserver Firewall: Dropped packet from 185.220.223.223 - potential port scan detected
+Jan 29 10:09:08 myserver System reboot initiated by root
+Jan 29 10:06:45 myserver Accepted password for user root from 203.0.113.38 port 17284 ssh2
+Jan 29 10:02:56 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:06 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:59 myserver System reboot initiated by root
+Jan 29 10:08:13 myserver System reboot initiated by root
+Jan 29 10:03:19 myserver Failed password for invalid user admin from 192.168.1.33 port 38899 ssh2
+Jan 29 10:00:20 myserver System reboot initiated by root
+Jan 29 10:02:23 myserver Service apache2 restarted
+Jan 29 10:03:19 myserver Service apache2 restarted
+Jan 29 10:05:49 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:27 myserver Service apache2 restarted
+Jan 29 10:09:53 myserver Service apache2 restarted
+Jan 29 10:08:50 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:15 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:19 myserver System reboot initiated by root
+Jan 29 10:08:07 myserver Accepted password for user root from 203.0.113.32 port 34935 ssh2
+Jan 29 10:04:17 myserver Service apache2 restarted
+Jan 29 10:08:32 myserver Warning: High CPU usage detected
+Jan 29 10:06:17 myserver Service apache2 restarted
+Jan 29 10:04:20 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:29 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:11 myserver Failed password for invalid user admin from 192.168.1.130 port 64169 ssh2
+Jan 29 10:03:09 myserver Firewall: Dropped packet from 185.220.206.206 - potential port scan detected
+Jan 29 10:01:15 myserver Accepted password for user root from 203.0.113.72 port 54011 ssh2
+Jan 29 10:00:57 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:09 myserver Service apache2 restarted
+Jan 29 10:09:33 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:00:55 myserver Warning: High CPU usage detected
+Jan 29 10:01:34 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:14 myserver Firewall: Dropped packet from 185.220.214.214 - potential port scan detected
+Jan 29 10:07:31 myserver Firewall: Dropped packet from 185.220.93.93 - potential port scan detected
+Jan 29 10:09:06 myserver Failed password for invalid user admin from 192.168.1.119 port 15670 ssh2
+Jan 29 10:08:25 myserver System reboot initiated by root
+Jan 29 10:00:25 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:45 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:09 myserver Accepted password for user root from 203.0.113.241 port 59011 ssh2
+Jan 29 10:06:07 myserver Warning: High CPU usage detected
+Jan 29 10:07:30 myserver Warning: High CPU usage detected
+Jan 29 10:08:54 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:09 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:07 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:54 myserver Firewall: Dropped packet from 185.220.61.61 - potential port scan detected
+Jan 29 10:01:08 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:52 myserver Service apache2 restarted
+Jan 29 10:08:28 myserver Firewall: Dropped packet from 185.220.227.227 - potential port scan detected
+Jan 29 10:07:08 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:46 myserver Firewall: Dropped packet from 185.220.111.111 - potential port scan detected
+Jan 29 10:01:10 myserver Failed password for invalid user admin from 192.168.1.20 port 28771 ssh2
+Jan 29 10:05:24 myserver Accepted password for user root from 203.0.113.49 port 36780 ssh2
+Jan 29 10:07:13 myserver Accepted password for user root from 203.0.113.87 port 43579 ssh2
+Jan 29 10:05:19 myserver System reboot initiated by root
+Jan 29 10:00:12 myserver Service apache2 restarted
+Jan 29 10:04:33 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:14 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:58 myserver System reboot initiated by root
+Jan 29 10:00:55 myserver Firewall: Dropped packet from 185.220.202.202 - potential port scan detected
+Jan 29 10:03:03 myserver Warning: High CPU usage detected
+Jan 29 10:08:29 myserver Service apache2 restarted
+Jan 29 10:03:02 myserver Service apache2 restarted
+Jan 29 10:06:29 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:58 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:10 myserver System reboot initiated by root
+Jan 29 10:04:56 myserver Accepted password for user root from 203.0.113.206 port 42200 ssh2
+Jan 29 10:02:26 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:06 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:25 myserver Accepted password for user root from 203.0.113.27 port 29328 ssh2
+Jan 29 10:02:17 myserver Firewall: Dropped packet from 185.220.106.106 - potential port scan detected
+Jan 29 10:02:46 myserver Failed password for invalid user admin from 192.168.1.212 port 65401 ssh2
+Jan 29 10:04:44 myserver Warning: High CPU usage detected
+Jan 29 10:03:39 myserver System reboot initiated by root
+Jan 29 10:08:34 myserver Accepted password for user root from 203.0.113.78 port 60022 ssh2
+Jan 29 10:02:05 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:17 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:08 myserver Firewall: Dropped packet from 185.220.220.220 - potential port scan detected
+Jan 29 10:05:08 myserver Warning: High CPU usage detected
+Jan 29 10:04:58 myserver System reboot initiated by root
+Jan 29 10:00:55 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:32 myserver Failed password for invalid user admin from 192.168.1.165 port 33573 ssh2
+Jan 29 10:07:52 myserver Warning: High CPU usage detected
+Jan 29 10:02:25 myserver Warning: High CPU usage detected
+Jan 29 10:05:50 myserver Service apache2 restarted
+Jan 29 10:01:52 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:19 myserver Warning: High CPU usage detected
+Jan 29 10:00:47 myserver Warning: High CPU usage detected
+Jan 29 10:02:08 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:06 myserver Warning: High CPU usage detected
+Jan 29 10:01:54 myserver Service apache2 restarted
+Jan 29 10:03:13 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:00 myserver System reboot initiated by root
+Jan 29 10:00:27 myserver Accepted password for user root from 203.0.113.125 port 60665 ssh2
+Jan 29 10:00:11 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:22 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:07 myserver System reboot initiated by root
+Jan 29 10:00:29 myserver Service apache2 restarted
+Jan 29 10:02:38 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:52 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:04 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:05 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:45 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:57 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:18 myserver Failed password for invalid user admin from 192.168.1.48 port 12295 ssh2
+Jan 29 10:07:12 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:52 myserver Warning: High CPU usage detected
+Jan 29 10:04:15 myserver Firewall: Dropped packet from 185.220.31.31 - potential port scan detected
+Jan 29 10:10:00 myserver Warning: High CPU usage detected
+Jan 29 10:02:58 myserver Firewall: Dropped packet from 185.220.10.10 - potential port scan detected
+Jan 29 10:01:36 myserver Failed password for invalid user admin from 192.168.1.195 port 41003 ssh2
+Jan 29 10:09:16 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:53 myserver System reboot initiated by root
+Jan 29 10:03:27 myserver Service apache2 restarted
+Jan 29 10:00:51 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:04 myserver Accepted password for user root from 203.0.113.142 port 21565 ssh2
+Jan 29 10:04:20 myserver Service apache2 restarted
+Jan 29 10:05:36 myserver Accepted password for user root from 203.0.113.250 port 32623 ssh2
+Jan 29 10:06:14 myserver System reboot initiated by root
+Jan 29 10:05:28 myserver Accepted password for user root from 203.0.113.156 port 38043 ssh2
+Jan 29 10:09:35 myserver Firewall: Dropped packet from 185.220.46.46 - potential port scan detected
+Jan 29 10:00:55 myserver System reboot initiated by root
+Jan 29 10:06:06 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:39 myserver System reboot initiated by root
+Jan 29 10:08:59 myserver Firewall: Dropped packet from 185.220.218.218 - potential port scan detected
+Jan 29 10:09:46 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:27 myserver Failed password for invalid user admin from 192.168.1.110 port 36016 ssh2
+Jan 29 10:07:12 myserver Firewall: Dropped packet from 185.220.48.48 - potential port scan detected
+Jan 29 10:03:02 myserver Service apache2 restarted
+Jan 29 10:05:30 myserver Warning: High CPU usage detected
+Jan 29 10:01:45 myserver Accepted password for user root from 203.0.113.176 port 31739 ssh2
+Jan 29 10:02:14 myserver System reboot initiated by root
+Jan 29 10:08:28 myserver Firewall: Dropped packet from 185.220.165.165 - potential port scan detected
+Jan 29 10:05:36 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:36 myserver Accepted password for user root from 203.0.113.63 port 31741 ssh2
+Jan 29 10:01:19 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:40 myserver Warning: High CPU usage detected
+Jan 29 10:07:11 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:05 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:57 myserver Warning: High CPU usage detected
+Jan 29 10:01:28 myserver Accepted password for user root from 203.0.113.195 port 7171 ssh2
+Jan 29 10:09:08 myserver Firewall: Dropped packet from 185.220.110.110 - potential port scan detected
+Jan 29 10:02:39 myserver System reboot initiated by root
+Jan 29 10:02:28 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:44 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:38 myserver Service apache2 restarted
+Jan 29 10:05:05 myserver Service apache2 restarted
+Jan 29 10:08:23 myserver Service apache2 restarted
+Jan 29 10:00:35 myserver Warning: High CPU usage detected
+Jan 29 10:01:31 myserver Failed password for invalid user admin from 192.168.1.16 port 52498 ssh2
+Jan 29 10:08:03 myserver Service apache2 restarted
+Jan 29 10:07:15 myserver Failed password for invalid user admin from 192.168.1.44 port 14293 ssh2
+Jan 29 10:01:16 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:03 myserver Service apache2 restarted
+Jan 29 10:00:10 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:04 myserver Accepted password for user root from 203.0.113.158 port 40789 ssh2
+Jan 29 10:03:49 myserver Warning: High CPU usage detected
+Jan 29 10:06:38 myserver Firewall: Dropped packet from 185.220.236.236 - potential port scan detected
+Jan 29 10:00:24 myserver Firewall: Dropped packet from 185.220.236.236 - potential port scan detected
+Jan 29 10:06:25 myserver Warning: High CPU usage detected
+Jan 29 10:05:40 myserver Warning: High CPU usage detected
+Jan 29 10:04:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:33 myserver Firewall: Dropped packet from 185.220.194.194 - potential port scan detected
+Jan 29 10:04:10 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:38 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:58 myserver Firewall: Dropped packet from 185.220.24.24 - potential port scan detected
+Jan 29 10:07:19 myserver System reboot initiated by root
+Jan 29 10:09:31 myserver Accepted password for user root from 203.0.113.181 port 19754 ssh2
+Jan 29 10:04:05 myserver Failed password for invalid user admin from 192.168.1.190 port 22061 ssh2
+Jan 29 10:00:49 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:59 myserver Firewall: Dropped packet from 185.220.38.38 - potential port scan detected
+Jan 29 10:07:42 myserver Warning: High CPU usage detected
+Jan 29 10:10:00 myserver Failed password for invalid user admin from 192.168.1.64 port 4409 ssh2
+Jan 29 10:08:04 myserver Failed password for invalid user admin from 192.168.1.17 port 50074 ssh2
+Jan 29 10:09:02 myserver Service apache2 restarted
+Jan 29 10:09:40 myserver Failed password for invalid user admin from 192.168.1.252 port 39387 ssh2
+Jan 29 10:07:59 myserver Failed password for invalid user admin from 192.168.1.205 port 7301 ssh2
+Jan 29 10:05:48 myserver Service apache2 restarted
+Jan 29 10:00:13 myserver System reboot initiated by root
+Jan 29 10:09:10 myserver Accepted password for user root from 203.0.113.23 port 33937 ssh2
+Jan 29 10:09:30 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:41 myserver Warning: High CPU usage detected
+Jan 29 10:00:13 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:53 myserver Firewall: Dropped packet from 185.220.76.76 - potential port scan detected
+Jan 29 10:04:48 myserver Service apache2 restarted
+Jan 29 10:04:40 myserver Accepted password for user root from 203.0.113.145 port 31029 ssh2
+Jan 29 10:01:38 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:34 myserver Firewall: Dropped packet from 185.220.187.187 - potential port scan detected
+Jan 29 10:07:35 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:58 myserver Warning: High CPU usage detected
+Jan 29 10:05:21 myserver Failed password for invalid user admin from 192.168.1.82 port 62404 ssh2
+Jan 29 10:09:00 myserver Service apache2 restarted
+Jan 29 10:04:58 myserver Warning: High CPU usage detected
+Jan 29 10:04:55 myserver Service apache2 restarted
+Jan 29 10:04:05 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:28 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:32 myserver Firewall: Dropped packet from 185.220.187.187 - potential port scan detected
+Jan 29 10:00:12 myserver Service apache2 restarted
+Jan 29 10:08:21 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:16 myserver Warning: High CPU usage detected
+Jan 29 10:08:01 myserver Warning: High CPU usage detected
+Jan 29 10:07:44 myserver Service apache2 restarted
+Jan 29 10:05:14 myserver System reboot initiated by root
+Jan 29 10:00:15 myserver Accepted password for user root from 203.0.113.237 port 47165 ssh2
+Jan 29 10:02:12 myserver System reboot initiated by root
+Jan 29 10:00:47 myserver Firewall: Dropped packet from 185.220.39.39 - potential port scan detected
+Jan 29 10:00:32 myserver Accepted password for user root from 203.0.113.180 port 15066 ssh2
+Jan 29 10:07:35 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:48 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:24 myserver Failed password for invalid user admin from 192.168.1.80 port 29890 ssh2
+Jan 29 10:04:10 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:08 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:55 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:59 myserver Accepted password for user root from 203.0.113.17 port 62752 ssh2
+Jan 29 10:05:48 myserver Accepted password for user root from 203.0.113.92 port 48003 ssh2
+Jan 29 10:01:20 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:45 myserver Failed password for invalid user admin from 192.168.1.4 port 54869 ssh2
+Jan 29 10:05:20 myserver Failed password for invalid user admin from 192.168.1.246 port 37780 ssh2
+Jan 29 10:09:33 myserver Failed password for invalid user admin from 192.168.1.187 port 14687 ssh2
+Jan 29 10:07:09 myserver Failed password for invalid user admin from 192.168.1.163 port 41776 ssh2
+Jan 29 10:09:58 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:18 myserver Warning: High CPU usage detected
+Jan 29 10:07:31 myserver Accepted password for user root from 203.0.113.180 port 3025 ssh2
+Jan 29 10:08:35 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:34 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:01 myserver Firewall: Dropped packet from 185.220.144.144 - potential port scan detected
+Jan 29 10:04:30 myserver Firewall: Dropped packet from 185.220.37.37 - potential port scan detected
+Jan 29 10:04:53 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:54 myserver Failed password for invalid user admin from 192.168.1.189 port 20902 ssh2
+Jan 29 10:02:42 myserver Warning: High CPU usage detected
+Jan 29 10:08:50 myserver Warning: High CPU usage detected
+Jan 29 10:02:22 myserver Warning: High CPU usage detected
+Jan 29 10:05:42 myserver System reboot initiated by root
+Jan 29 10:08:36 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:13 myserver Firewall: Dropped packet from 185.220.155.155 - potential port scan detected
+Jan 29 10:03:01 myserver Firewall: Dropped packet from 185.220.7.7 - potential port scan detected
+Jan 29 10:01:56 myserver Firewall: Dropped packet from 185.220.98.98 - potential port scan detected
+Jan 29 10:05:43 myserver System reboot initiated by root
+Jan 29 10:07:50 myserver Accepted password for user root from 203.0.113.221 port 58149 ssh2
+Jan 29 10:03:33 myserver Warning: High CPU usage detected
+Jan 29 10:06:29 myserver System reboot initiated by root
+Jan 29 10:08:28 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:55 myserver Firewall: Dropped packet from 185.220.129.129 - potential port scan detected
+Jan 29 10:01:20 myserver Accepted password for user root from 203.0.113.58 port 17318 ssh2
+Jan 29 10:05:50 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:34 myserver Failed password for invalid user admin from 192.168.1.114 port 25272 ssh2
+Jan 29 10:09:35 myserver Service apache2 restarted
+Jan 29 10:05:51 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:51 myserver Warning: High CPU usage detected
+Jan 29 10:06:36 myserver Warning: High CPU usage detected
+Jan 29 10:05:46 myserver System reboot initiated by root
+Jan 29 10:05:46 myserver Failed password for invalid user admin from 192.168.1.22 port 39275 ssh2
+Jan 29 10:04:29 myserver Failed password for invalid user admin from 192.168.1.12 port 6457 ssh2
+Jan 29 10:01:11 myserver Service apache2 restarted
+Jan 29 10:01:43 myserver Firewall: Dropped packet from 185.220.97.97 - potential port scan detected
+Jan 29 10:08:15 myserver Warning: High CPU usage detected
+Jan 29 10:08:42 myserver Firewall: Dropped packet from 185.220.59.59 - potential port scan detected
+Jan 29 10:07:00 myserver Failed password for invalid user admin from 192.168.1.104 port 4474 ssh2
+Jan 29 10:03:28 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:30 myserver Accepted password for user root from 203.0.113.89 port 7535 ssh2
+Jan 29 10:09:00 myserver Failed password for invalid user admin from 192.168.1.244 port 49586 ssh2
+Jan 29 10:02:10 myserver Service apache2 restarted
+Jan 29 10:04:32 myserver Service apache2 restarted
+Jan 29 10:04:48 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:57 myserver Accepted password for user root from 203.0.113.85 port 36199 ssh2
+Jan 29 10:08:33 myserver Warning: High CPU usage detected
+Jan 29 10:09:50 myserver Failed password for invalid user admin from 192.168.1.146 port 37510 ssh2
+Jan 29 10:00:59 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:41 myserver Service apache2 restarted
+Jan 29 10:06:28 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:58 myserver Warning: High CPU usage detected
+Jan 29 10:01:37 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:56 myserver Service apache2 restarted
+Jan 29 10:03:45 myserver System reboot initiated by root
+Jan 29 10:04:48 myserver System reboot initiated by root
+Jan 29 10:09:18 myserver Accepted password for user root from 203.0.113.231 port 27823 ssh2
+Jan 29 10:08:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:18 myserver Failed password for invalid user admin from 192.168.1.163 port 2577 ssh2
+Jan 29 10:05:47 myserver Warning: High CPU usage detected
+Jan 29 10:02:07 myserver Firewall: Dropped packet from 185.220.35.35 - potential port scan detected
+Jan 29 10:00:39 myserver Accepted password for user root from 203.0.113.212 port 62021 ssh2
+Jan 29 10:05:28 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:01 myserver Firewall: Dropped packet from 185.220.72.72 - potential port scan detected
+Jan 29 10:07:49 myserver System reboot initiated by root
+Jan 29 10:00:45 myserver Failed password for invalid user admin from 192.168.1.42 port 16421 ssh2
+Jan 29 10:04:34 myserver Warning: High CPU usage detected
+Jan 29 10:03:30 myserver Warning: High CPU usage detected
+Jan 29 10:05:46 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:08 myserver Warning: High CPU usage detected
+Jan 29 10:04:16 myserver System reboot initiated by root
+Jan 29 10:08:24 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:00 myserver System reboot initiated by root
+Jan 29 10:09:38 myserver System reboot initiated by root
+Jan 29 10:06:54 myserver Warning: High CPU usage detected
+Jan 29 10:00:22 myserver Firewall: Dropped packet from 185.220.50.50 - potential port scan detected
+Jan 29 10:03:50 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:09 myserver Failed password for invalid user admin from 192.168.1.214 port 52247 ssh2
+Jan 29 10:09:31 myserver Accepted password for user root from 203.0.113.219 port 15636 ssh2
+Jan 29 10:04:06 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:54 myserver System reboot initiated by root
+Jan 29 10:02:52 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:07 myserver Accepted password for user root from 203.0.113.75 port 10864 ssh2
+Jan 29 10:08:15 myserver Warning: High CPU usage detected
+Jan 29 10:03:22 myserver Firewall: Dropped packet from 185.220.157.157 - potential port scan detected
+Jan 29 10:09:57 myserver Warning: High CPU usage detected
+Jan 29 10:01:46 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:25 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:08 myserver Service apache2 restarted
+Jan 29 10:03:42 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:18 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:48 myserver Firewall: Dropped packet from 185.220.80.80 - potential port scan detected
+Jan 29 10:03:20 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:53 myserver Accepted password for user root from 203.0.113.168 port 43666 ssh2
+Jan 29 10:07:30 myserver Accepted password for user root from 203.0.113.87 port 43099 ssh2
+Jan 29 10:08:02 myserver Warning: High CPU usage detected
+Jan 29 10:06:27 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:00 myserver System reboot initiated by root
+Jan 29 10:06:40 myserver Failed password for invalid user admin from 192.168.1.138 port 2686 ssh2
+Jan 29 10:09:19 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:00 myserver Accepted password for user root from 203.0.113.49 port 61546 ssh2
+Jan 29 10:07:57 myserver Accepted password for user root from 203.0.113.247 port 28404 ssh2
+Jan 29 10:06:13 myserver Failed password for invalid user admin from 192.168.1.207 port 23398 ssh2
+Jan 29 10:03:11 myserver Firewall: Dropped packet from 185.220.88.88 - potential port scan detected
+Jan 29 10:03:29 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:46 myserver Failed password for invalid user admin from 192.168.1.182 port 8027 ssh2
+Jan 29 10:06:21 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:06 myserver Service apache2 restarted
+Jan 29 10:08:28 myserver Firewall: Dropped packet from 185.220.20.20 - potential port scan detected
+Jan 29 10:07:34 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:08 myserver Firewall: Dropped packet from 185.220.32.32 - potential port scan detected
+Jan 29 10:07:30 myserver Service apache2 restarted
+Jan 29 10:03:21 myserver Firewall: Dropped packet from 185.220.149.149 - potential port scan detected
+Jan 29 10:01:04 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:40 myserver Accepted password for user root from 203.0.113.21 port 40186 ssh2
+Jan 29 10:01:16 myserver Service apache2 restarted
+Jan 29 10:03:13 myserver System reboot initiated by root
+Jan 29 10:03:21 myserver Firewall: Dropped packet from 185.220.60.60 - potential port scan detected
+Jan 29 10:07:43 myserver System reboot initiated by root
+Jan 29 10:05:31 myserver System reboot initiated by root
+Jan 29 10:07:50 myserver Accepted password for user root from 203.0.113.214 port 27084 ssh2
+Jan 29 10:05:35 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:26 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:51 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:03 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:28 myserver System reboot initiated by root
+Jan 29 10:09:17 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:04 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:56 myserver Service apache2 restarted
+Jan 29 10:06:43 myserver Warning: High CPU usage detected
+Jan 29 10:03:38 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:36 myserver System reboot initiated by root
+Jan 29 10:00:38 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:18 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:27 myserver Failed password for invalid user admin from 192.168.1.90 port 30444 ssh2
+Jan 29 10:06:10 myserver Warning: High CPU usage detected
+Jan 29 10:09:07 myserver System reboot initiated by root
+Jan 29 10:05:30 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:25 myserver Failed password for invalid user admin from 192.168.1.152 port 63335 ssh2
+Jan 29 10:00:52 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:39 myserver Warning: High CPU usage detected
+Jan 29 10:09:45 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:40 myserver Firewall: Dropped packet from 185.220.239.239 - potential port scan detected
+Jan 29 10:00:47 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:06 myserver Warning: High CPU usage detected
+Jan 29 10:07:46 myserver Firewall: Dropped packet from 185.220.89.89 - potential port scan detected
+Jan 29 10:04:29 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:05 myserver System reboot initiated by root
+Jan 29 10:08:22 myserver Warning: High CPU usage detected
+Jan 29 10:04:50 myserver Firewall: Dropped packet from 185.220.39.39 - potential port scan detected
+Jan 29 10:00:13 myserver Warning: High CPU usage detected
+Jan 29 10:09:20 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:48 myserver Firewall: Dropped packet from 185.220.20.20 - potential port scan detected
+Jan 29 10:01:53 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:46 myserver Failed password for invalid user admin from 192.168.1.26 port 62658 ssh2
+Jan 29 10:05:00 myserver Failed password for invalid user admin from 192.168.1.79 port 56441 ssh2
+Jan 29 10:01:05 myserver Firewall: Dropped packet from 185.220.163.163 - potential port scan detected
+Jan 29 10:05:44 myserver Failed password for invalid user admin from 192.168.1.205 port 17996 ssh2
+Jan 29 10:02:16 myserver Failed password for invalid user admin from 192.168.1.162 port 20045 ssh2
+Jan 29 10:03:03 myserver Warning: High CPU usage detected
+Jan 29 10:00:58 myserver Service apache2 restarted
+Jan 29 10:05:58 myserver Firewall: Dropped packet from 185.220.2.2 - potential port scan detected
+Jan 29 10:05:41 myserver Accepted password for user root from 203.0.113.94 port 54626 ssh2
+Jan 29 10:05:30 myserver Firewall: Dropped packet from 185.220.23.23 - potential port scan detected
+Jan 29 10:00:30 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:12 myserver Accepted password for user root from 203.0.113.59 port 26307 ssh2
+Jan 29 10:03:40 myserver Firewall: Dropped packet from 185.220.233.233 - potential port scan detected
+Jan 29 10:04:09 myserver Service apache2 restarted
+Jan 29 10:06:54 myserver Warning: High CPU usage detected
+Jan 29 10:05:42 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:04 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:20 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:06 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:15 myserver Service apache2 restarted
+Jan 29 10:01:58 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:18 myserver System reboot initiated by root
+Jan 29 10:05:35 myserver Failed password for invalid user admin from 192.168.1.157 port 21386 ssh2
+Jan 29 10:04:59 myserver Failed password for invalid user admin from 192.168.1.126 port 36120 ssh2
+Jan 29 10:05:06 myserver Service apache2 restarted
+Jan 29 10:03:19 myserver Firewall: Dropped packet from 185.220.230.230 - potential port scan detected
+Jan 29 10:05:33 myserver Accepted password for user root from 203.0.113.43 port 54634 ssh2
+Jan 29 10:07:44 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:14 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:50 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:52 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:34 myserver Firewall: Dropped packet from 185.220.236.236 - potential port scan detected
+Jan 29 10:02:27 myserver System reboot initiated by root
+Jan 29 10:08:36 myserver Failed password for invalid user admin from 192.168.1.152 port 31557 ssh2
+Jan 29 10:09:06 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:24 myserver System reboot initiated by root
+Jan 29 10:07:32 myserver Firewall: Dropped packet from 185.220.53.53 - potential port scan detected
+Jan 29 10:08:52 myserver Service apache2 restarted
+Jan 29 10:00:18 myserver Service apache2 restarted
+Jan 29 10:06:54 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:44 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:13 myserver Firewall: Dropped packet from 185.220.155.155 - potential port scan detected
+Jan 29 10:05:34 myserver System reboot initiated by root
+Jan 29 10:05:42 myserver Warning: High CPU usage detected
+Jan 29 10:00:16 myserver Failed password for invalid user admin from 192.168.1.62 port 24454 ssh2
+Jan 29 10:07:11 myserver Firewall: Dropped packet from 185.220.133.133 - potential port scan detected
+Jan 29 10:04:13 myserver System reboot initiated by root
+Jan 29 10:02:15 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:39 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:58 myserver Warning: High CPU usage detected
+Jan 29 10:03:23 myserver Warning: High CPU usage detected
+Jan 29 10:06:48 myserver Firewall: Dropped packet from 185.220.253.253 - potential port scan detected
+Jan 29 10:07:55 myserver System reboot initiated by root
+Jan 29 10:06:37 myserver Service apache2 restarted
+Jan 29 10:06:04 myserver System reboot initiated by root
+Jan 29 10:09:24 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:00 myserver Accepted password for user root from 203.0.113.115 port 58032 ssh2
+Jan 29 10:04:42 myserver Warning: High CPU usage detected
+Jan 29 10:09:35 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:22 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:51 myserver Failed password for invalid user admin from 192.168.1.212 port 40869 ssh2
+Jan 29 10:09:39 myserver Accepted password for user root from 203.0.113.21 port 32881 ssh2
+Jan 29 10:05:18 myserver System reboot initiated by root
+Jan 29 10:06:38 myserver Accepted password for user root from 203.0.113.106 port 19053 ssh2
+Jan 29 10:00:40 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:40 myserver Firewall: Dropped packet from 185.220.49.49 - potential port scan detected
+Jan 29 10:01:40 myserver Firewall: Dropped packet from 185.220.155.155 - potential port scan detected
+Jan 29 10:09:31 myserver Firewall: Dropped packet from 185.220.66.66 - potential port scan detected
+Jan 29 10:04:46 myserver Warning: High CPU usage detected
+Jan 29 10:04:04 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:46 myserver Failed password for invalid user admin from 192.168.1.1 port 31739 ssh2
+Jan 29 10:05:48 myserver Warning: High CPU usage detected
+Jan 29 10:00:12 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:54 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:16 myserver Service apache2 restarted
+Jan 29 10:05:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:28 myserver Accepted password for user root from 203.0.113.167 port 64430 ssh2
+Jan 29 10:03:40 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:44 myserver Service apache2 restarted
+Jan 29 10:09:14 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:24 myserver Service apache2 restarted
+Jan 29 10:02:11 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:09 myserver Accepted password for user root from 203.0.113.96 port 44593 ssh2
+Jan 29 10:08:52 myserver Warning: High CPU usage detected
+Jan 29 10:08:19 myserver Accepted password for user root from 203.0.113.239 port 30667 ssh2
+Jan 29 10:09:31 myserver Service apache2 restarted
+Jan 29 10:08:55 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:28 myserver Warning: High CPU usage detected
+Jan 29 10:01:29 myserver Warning: High CPU usage detected
+Jan 29 10:00:46 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:26 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:57 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:09 myserver Failed password for invalid user admin from 192.168.1.210 port 3588 ssh2
+Jan 29 10:04:37 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:11 myserver Failed password for invalid user admin from 192.168.1.139 port 5168 ssh2
+Jan 29 10:02:21 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:51 myserver Accepted password for user root from 203.0.113.233 port 28885 ssh2
+Jan 29 10:09:37 myserver Failed password for invalid user admin from 192.168.1.188 port 19949 ssh2
+Jan 29 10:05:34 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:40 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:12 myserver Failed password for invalid user admin from 192.168.1.5 port 49806 ssh2
+Jan 29 10:05:14 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:05 myserver Service apache2 restarted
+Jan 29 10:08:39 myserver System reboot initiated by root
+Jan 29 10:04:59 myserver Accepted password for user root from 203.0.113.185 port 49948 ssh2
+Jan 29 10:05:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:24 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:46 myserver Failed password for invalid user admin from 192.168.1.27 port 29598 ssh2
+Jan 29 10:09:30 myserver Service apache2 restarted
+Jan 29 10:03:55 myserver Warning: High CPU usage detected
+Jan 29 10:05:39 myserver Failed password for invalid user admin from 192.168.1.134 port 24012 ssh2
+Jan 29 10:09:52 myserver Accepted password for user root from 203.0.113.33 port 41174 ssh2
+Jan 29 10:03:12 myserver Warning: High CPU usage detected
+Jan 29 10:01:50 myserver Failed password for invalid user admin from 192.168.1.53 port 11954 ssh2
+Jan 29 10:08:40 myserver Firewall: Dropped packet from 185.220.69.69 - potential port scan detected
+Jan 29 10:04:27 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:24 myserver System reboot initiated by root
+Jan 29 10:06:06 myserver Failed password for invalid user admin from 192.168.1.148 port 25406 ssh2
+Jan 29 10:01:59 myserver Warning: High CPU usage detected
+Jan 29 10:03:16 myserver Accepted password for user root from 203.0.113.179 port 35492 ssh2
+Jan 29 10:08:03 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:41 myserver Service apache2 restarted
+Jan 29 10:07:56 myserver Service apache2 restarted
+Jan 29 10:06:42 myserver Service apache2 restarted
+Jan 29 10:08:15 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:00:23 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:15 myserver Accepted password for user root from 203.0.113.77 port 20881 ssh2
+Jan 29 10:09:30 myserver Firewall: Dropped packet from 185.220.209.209 - potential port scan detected
+Jan 29 10:08:22 myserver Service apache2 restarted
+Jan 29 10:08:47 myserver Service apache2 restarted
+Jan 29 10:03:50 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:34 myserver Failed password for invalid user admin from 192.168.1.35 port 58591 ssh2
+Jan 29 10:04:35 myserver Warning: High CPU usage detected
+Jan 29 10:07:49 myserver Service apache2 restarted
+Jan 29 10:05:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:59 myserver System reboot initiated by root
+Jan 29 10:03:54 myserver System reboot initiated by root
+Jan 29 10:01:36 myserver System reboot initiated by root
+Jan 29 10:01:24 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:06:49 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:30 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:34 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:10 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:43 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:58 myserver Accepted password for user root from 203.0.113.228 port 36924 ssh2
+Jan 29 10:01:40 myserver Failed password for invalid user admin from 192.168.1.200 port 4336 ssh2
+Jan 29 10:01:56 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:55 myserver Service apache2 restarted
+Jan 29 10:06:21 myserver Accepted password for user root from 203.0.113.186 port 62383 ssh2
+Jan 29 10:04:55 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:49 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:03 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:56 myserver Service apache2 restarted
+Jan 29 10:02:05 myserver Failed password for invalid user admin from 192.168.1.171 port 4593 ssh2
+Jan 29 10:03:32 myserver Warning: High CPU usage detected
+Jan 29 10:01:52 myserver Service apache2 restarted
+Jan 29 10:04:51 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:02 myserver Failed password for invalid user admin from 192.168.1.103 port 27132 ssh2
+Jan 29 10:06:35 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:40 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:27 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:01 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:11 myserver Warning: High CPU usage detected
+Jan 29 10:04:19 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:19 myserver Warning: High CPU usage detected
+Jan 29 10:03:41 myserver Failed password for invalid user admin from 192.168.1.221 port 52951 ssh2
+Jan 29 10:07:18 myserver System reboot initiated by root
+Jan 29 10:01:41 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:00:17 myserver Accepted password for user root from 203.0.113.100 port 18474 ssh2
+Jan 29 10:07:39 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:30 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:08:32 myserver Accepted password for user root from 203.0.113.33 port 50620 ssh2
+Jan 29 10:00:44 myserver Service apache2 restarted
+Jan 29 10:02:57 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:39 myserver Firewall: Dropped packet from 185.220.11.11 - potential port scan detected
+Jan 29 10:06:02 myserver Firewall: Dropped packet from 185.220.87.87 - potential port scan detected
+Jan 29 10:01:02 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:16 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:20 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:20 myserver Failed password for invalid user admin from 192.168.1.201 port 58825 ssh2
+Jan 29 10:07:38 myserver Service apache2 restarted
+Jan 29 10:03:49 myserver Failed password for invalid user admin from 192.168.1.105 port 5177 ssh2
+Jan 29 10:02:49 myserver Service apache2 restarted
+Jan 29 10:06:45 myserver Warning: High CPU usage detected
+Jan 29 10:09:49 myserver Accepted password for user root from 203.0.113.11 port 22900 ssh2
+Jan 29 10:06:22 myserver System reboot initiated by root
+Jan 29 10:08:07 myserver Accepted password for user root from 203.0.113.195 port 17929 ssh2
+Jan 29 10:05:11 myserver Accepted password for user root from 203.0.113.230 port 8342 ssh2
+Jan 29 10:07:29 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:58 myserver Failed password for invalid user admin from 192.168.1.237 port 30486 ssh2
+Jan 29 10:04:00 myserver Firewall: Dropped packet from 185.220.40.40 - potential port scan detected
+Jan 29 10:01:32 myserver Firewall: Dropped packet from 185.220.138.138 - potential port scan detected
+Jan 29 10:04:03 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:08 myserver Firewall: Dropped packet from 185.220.213.213 - potential port scan detected
+Jan 29 10:03:22 myserver Warning: High CPU usage detected
+Jan 29 10:08:15 myserver Firewall: Dropped packet from 185.220.102.102 - potential port scan detected
+Jan 29 10:00:44 myserver Service apache2 restarted
+Jan 29 10:02:31 myserver Failed password for invalid user admin from 192.168.1.87 port 45526 ssh2
+Jan 29 10:02:01 myserver Service apache2 restarted
+Jan 29 10:02:22 myserver Accepted password for user root from 203.0.113.148 port 17474 ssh2
+Jan 29 10:00:39 myserver Warning: High CPU usage detected
+Jan 29 10:01:51 myserver Failed password for invalid user admin from 192.168.1.26 port 17591 ssh2
+Jan 29 10:04:01 myserver Service apache2 restarted
+Jan 29 10:04:35 myserver Warning: High CPU usage detected
+Jan 29 10:07:34 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:25 myserver System reboot initiated by root
+Jan 29 10:01:42 myserver Service apache2 restarted
+Jan 29 10:04:33 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:38 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:16 myserver Firewall: Dropped packet from 185.220.129.129 - potential port scan detected
+Jan 29 10:00:25 myserver Failed password for invalid user admin from 192.168.1.73 port 8956 ssh2
+Jan 29 10:07:24 myserver Firewall: Dropped packet from 185.220.17.17 - potential port scan detected
+Jan 29 10:04:59 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:41 myserver Service apache2 restarted
+Jan 29 10:00:42 myserver Failed password for invalid user admin from 192.168.1.13 port 21835 ssh2
+Jan 29 10:08:13 myserver Failed password for invalid user admin from 192.168.1.45 port 23315 ssh2
+Jan 29 10:00:11 myserver Failed password for invalid user admin from 192.168.1.102 port 31563 ssh2
+Jan 29 10:00:16 myserver System reboot initiated by root
+Jan 29 10:09:58 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:56 myserver Warning: High CPU usage detected
+Jan 29 10:06:25 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:29 myserver Failed password for invalid user admin from 192.168.1.184 port 54210 ssh2
+Jan 29 10:03:18 myserver Firewall: Dropped packet from 185.220.40.40 - potential port scan detected
+Jan 29 10:00:14 myserver Warning: High CPU usage detected
+Jan 29 10:07:18 myserver Warning: High CPU usage detected
+Jan 29 10:03:23 myserver Service apache2 restarted
+Jan 29 10:03:37 myserver Warning: High CPU usage detected
+Jan 29 10:00:58 myserver Service apache2 restarted
+Jan 29 10:02:57 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:54 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:57 myserver System reboot initiated by root
+Jan 29 10:02:28 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:39 myserver Failed password for invalid user admin from 192.168.1.212 port 55612 ssh2
+Jan 29 10:04:36 myserver System reboot initiated by root
+Jan 29 10:07:05 myserver System reboot initiated by root
+Jan 29 10:08:08 myserver Failed password for invalid user admin from 192.168.1.65 port 25989 ssh2
+Jan 29 10:01:45 myserver Warning: High CPU usage detected
+Jan 29 10:07:23 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:03 myserver Service apache2 restarted
+Jan 29 10:01:06 myserver Accepted password for user root from 203.0.113.122 port 2889 ssh2
+Jan 29 10:05:32 myserver Firewall: Dropped packet from 185.220.235.235 - potential port scan detected
+Jan 29 10:01:43 myserver Service apache2 restarted
+Jan 29 10:04:25 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:02 myserver Failed password for invalid user admin from 192.168.1.146 port 40148 ssh2
+Jan 29 10:01:06 myserver Service apache2 restarted
+Jan 29 10:08:08 myserver Firewall: Dropped packet from 185.220.165.165 - potential port scan detected
+Jan 29 10:09:21 myserver System reboot initiated by root
+Jan 29 10:06:17 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:04 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:18 myserver System reboot initiated by root
+Jan 29 10:00:10 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:03:07 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:01:47 myserver System reboot initiated by root
+Jan 29 10:09:40 myserver Warning: High CPU usage detected
+Jan 29 10:04:26 myserver Firewall: Dropped packet from 185.220.111.111 - potential port scan detected
+Jan 29 10:02:06 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:06:47 myserver Firewall: Dropped packet from 185.220.113.113 - potential port scan detected
+Jan 29 10:06:11 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:22 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:21 myserver System reboot initiated by root
+Jan 29 10:06:45 myserver Warning: High CPU usage detected
+Jan 29 10:01:39 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:07:46 myserver Accepted password for user root from 203.0.113.214 port 3922 ssh2
+Jan 29 10:07:30 myserver Disk space critically low on /dev/sda1
+Jan 29 10:04:53 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:18 myserver Accepted password for user root from 203.0.113.104 port 34288 ssh2
+Jan 29 10:05:08 myserver Accepted password for user root from 203.0.113.227 port 29428 ssh2
+Jan 29 10:03:20 myserver Warning: High CPU usage detected
+Jan 29 10:06:58 myserver Accepted password for user root from 203.0.113.142 port 7437 ssh2
+Jan 29 10:02:07 myserver Warning: High CPU usage detected
+Jan 29 10:05:05 myserver Failed password for invalid user admin from 192.168.1.189 port 36253 ssh2
+Jan 29 10:01:48 myserver Firewall: Dropped packet from 185.220.217.217 - potential port scan detected
+Jan 29 10:05:04 myserver Disk space critically low on /dev/sda1
+Jan 29 10:00:41 myserver Warning: High CPU usage detected
+Jan 29 10:04:01 myserver Firewall: Dropped packet from 185.220.237.237 - potential port scan detected
+Jan 29 10:08:27 myserver Disk space critically low on /dev/sda1
+Jan 29 10:05:47 myserver System reboot initiated by root
+Jan 29 10:06:03 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:05:30 myserver Warning: High CPU usage detected
+Jan 29 10:01:15 myserver Firewall: Dropped packet from 185.220.239.239 - potential port scan detected
+Jan 29 10:06:13 myserver Firewall: Dropped packet from 185.220.140.140 - potential port scan detected
+Jan 29 10:07:03 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:15 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:20 myserver Disk space critically low on /dev/sda1
+Jan 29 10:01:02 myserver Service apache2 restarted
+Jan 29 10:07:12 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:14 myserver Firewall: Dropped packet from 185.220.232.232 - potential port scan detected
+Jan 29 10:02:49 myserver Accepted password for user root from 203.0.113.65 port 38738 ssh2
+Jan 29 10:08:51 myserver Firewall: Dropped packet from 185.220.243.243 - potential port scan detected
+Jan 29 10:00:27 myserver Warning: High CPU usage detected
+Jan 29 10:08:25 myserver System reboot initiated by root
+Jan 29 10:10:00 myserver Disk space critically low on /dev/sda1
+Jan 29 10:08:08 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:14 myserver Warning: High CPU usage detected
+Jan 29 10:08:48 myserver Failed password for invalid user admin from 192.168.1.32 port 11115 ssh2
+Jan 29 10:08:19 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:26 myserver Failed password for invalid user admin from 192.168.1.247 port 45837 ssh2
+Jan 29 10:03:20 myserver Firewall: Dropped packet from 185.220.89.89 - potential port scan detected
+Jan 29 10:07:54 myserver Accepted password for user root from 203.0.113.230 port 2901 ssh2
+Jan 29 10:01:05 myserver Warning: High CPU usage detected
+Jan 29 10:03:16 myserver Service apache2 restarted
+Jan 29 10:07:59 myserver System reboot initiated by root
+Jan 29 10:03:06 myserver Disk space critically low on /dev/sda1
+Jan 29 10:07:26 myserver Service apache2 restarted
+Jan 29 10:09:53 myserver Failed password for invalid user admin from 192.168.1.131 port 29383 ssh2
+Jan 29 10:04:45 myserver Warning: High CPU usage detected
+Jan 29 10:08:12 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:32 myserver System reboot initiated by root
+Jan 29 10:01:59 myserver System reboot initiated by root
+Jan 29 10:02:32 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:01:16 myserver System reboot initiated by root
+Jan 29 10:03:47 myserver Disk space critically low on /dev/sda1
+Jan 29 10:02:58 myserver System reboot initiated by root
+Jan 29 10:08:41 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:20 myserver Failed password for invalid user admin from 192.168.1.218 port 1943 ssh2
+Jan 29 10:09:57 myserver Accepted password for user root from 203.0.113.215 port 42983 ssh2
+Jan 29 10:01:41 myserver System reboot initiated by root
+Jan 29 10:04:09 myserver System reboot initiated by root
+Jan 29 10:00:52 myserver Failed password for invalid user admin from 192.168.1.244 port 42704 ssh2
+Jan 29 10:05:07 myserver System reboot initiated by root
+Jan 29 10:06:19 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:04:01 myserver Accepted password for user root from 203.0.113.67 port 23424 ssh2
+Jan 29 10:03:41 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:03:00 myserver Warning: High CPU usage detected
+Jan 29 10:07:17 myserver System reboot initiated by root
+Jan 29 10:06:20 myserver Disk space critically low on /dev/sda1
+Jan 29 10:03:28 myserver Disk space critically low on /dev/sda1
+Jan 29 10:09:14 myserver Accepted password for user root from 203.0.113.164 port 44217 ssh2
+Jan 29 10:09:28 myserver Warning: High CPU usage detected
+Jan 29 10:00:18 myserver Service apache2 restarted
+Jan 29 10:07:37 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:09:56 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:02:41 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:05:09 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:04:55 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:08:19 myserver Warning: High CPU usage detected
+Jan 29 10:07:26 myserver Service apache2 restarted
+Jan 29 10:01:11 myserver Disk space critically low on /dev/sda1
+Jan 29 10:06:48 myserver GET /index.php?id=1' OR '1'='1 HTTP/1.1 200
+Jan 29 10:02:18 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:07:31 myserver Firewall: Dropped packet from 185.220.156.156 - potential port scan detected
+Jan 29 10:03:49 myserver Accepted password for user root from 203.0.113.116 port 62466 ssh2
+Jan 29 10:01:39 myserver Failed password for invalid user admin from 192.168.1.214 port 28758 ssh2
+Jan 29 10:06:36 myserver System reboot initiated by root
+Jan 29 10:05:13 myserver Firewall: Dropped packet from 185.220.74.74 - potential port scan detected
+Jan 29 10:03:39 myserver Service apache2 restarted
+Jan 29 10:09:39 myserver System reboot initiated by root
+Jan 29 10:00:14 myserver Warning: High CPU usage detected
+Jan 29 10:05:04 myserver Firewall: Dropped packet from 185.220.131.131 - potential port scan detected
+Jan 29 10:09:58 myserver Service apache2 restarted
+Jan 29 10:07:53 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:00:20 myserver Firewall: Dropped packet from 185.220.40.40 - potential port scan detected
+Jan 29 10:07:21 myserver Failed password for invalid user admin from 192.168.1.246 port 12393 ssh2
+Jan 29 10:01:56 myserver GET /search?q=<script>alert('XSS')</script> HTTP/1.1 200
+Jan 29 10:09:19 myserver Warning: High CPU usage detected
+Jan 29 10:06:28 myserver Accepted password for user root from 203.0.113.160 port 16015 ssh2
+Jan 29 10:02:21 myserver System reboot initiated by root
