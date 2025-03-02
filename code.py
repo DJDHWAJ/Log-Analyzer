@@ -1,29 +1,24 @@
-import os
-import re
-import json
-import pandas as pd
-import smtplib
-import logging
-import matplotlib.pyplot as plt
+import os, re, json, pandas as pd, smtplib, logging, matplotlib.pyplot as plt
 from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# Configure Logging
-logging.basicConfig(filename="log_analyzer.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+# log stuff (not sure if this is needed but whatever)
+logging.basicConfig(filename="log_file.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Global Variables
-THREAT_IPS = set()
+# config junk
 ALERT_EMAIL = "your_email@example.com"
-SMTP_SERVER = "smtp.example.com"
-SMTP_PORT = 587
-SMTP_USER = "your_email@example.com"
-SMTP_PASS = "your_password"
+SMTP_INFO = {
+    "server": "smtp.example.com",
+    "port": 587,
+    "user": "your_email@example.com",
+    "pass": "your_password"
+}
 
-# Regex Patterns for Log Parsing
-LOG_PATTERNS = {
+# bad stuff to look for
+BAD_PATTERNS = {
     "failed_login": re.compile(r"(Failed password|authentication failure)"),
     "brute_force": re.compile(r"(multiple failed login attempts)"),
     "suspicious_ip": re.compile(r"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"),
@@ -31,86 +26,86 @@ LOG_PATTERNS = {
     "sql_injection": re.compile(r"(SELECT .* FROM|DROP TABLE|INSERT INTO|--|xp_)")
 }
 
-# Function to send alerts
-def send_alert(subject, message):
+# send alert (not sure if this works lol)
+def emailWarning(subj, msg):
     try:
-        msg = MIMEMultipart()
-        msg["From"] = SMTP_USER
-        msg["To"] = ALERT_EMAIL
-        msg["Subject"] = subject
-        msg.attach(MIMEText(message, "plain"))
+        m = MIMEMultipart()
+        m["From"], m["To"], m["Subject"] = SMTP_INFO["user"], ALERT_EMAIL, subj
+        m.attach(MIMEText(msg, "plain"))
 
-        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-        server.starttls()
-        server.login(SMTP_USER, SMTP_PASS)
-        server.sendmail(SMTP_USER, ALERT_EMAIL, msg.as_string())
-        server.quit()
+        srv = smtplib.SMTP(SMTP_INFO["server"], SMTP_INFO["port"])
+        srv.starttls()
+        srv.login(SMTP_INFO["user"], SMTP_INFO["pass"])
+        srv.sendmail(SMTP_INFO["user"], ALERT_EMAIL, m.as_string())
+        srv.quit()
 
-        logging.info(f"Alert sent: {subject}")
+        logging.info(f"Sent alert: {subj}")
     except Exception as e:
-        logging.error(f"Failed to send alert: {e}")
+        logging.error(f"Email failed: {e}")
 
-# Function to parse logs
-def parse_log(file_path):
+# read logs (should work?)
+def get_logs(fpath):
     logs = []
-    with open(file_path, "r", encoding="utf-8") as file:
-        for line in file:
-            log_entry = analyze_log_line(line)
-            if log_entry:
-                logs.append(log_entry)
+    try:
+        with open(fpath, "r", encoding="utf-8") as file:
+            for line in file:
+                entry = checkLogs(line)
+                if entry:
+                    logs.append(entry)
+    except Exception as e:
+        logging.error(f"oops, couldn't read logs: {e}")
     return logs
 
-# Function to analyze log lines for security threats
-def analyze_log_line(line):
-    detected_threats = []
-    for attack, pattern in LOG_PATTERNS.items():
-        match = pattern.search(line)
-        if match:
-            logging.warning(f"Detected {attack} in log: {line.strip()}")
-            detected_threats.append({
-                "timestamp": str(datetime.now()),  # Ensure 'timestamp' is included
-                "attack_type": attack,
+# look at logs & find bad stuff
+def checkLogs(line):
+    detected = []
+    for k, p in BAD_PATTERNS.items():
+        if p.search(line):
+            logging.warning(f"Found {k}: {line.strip()}")
+            detected.append({
+                "timestamp": str(datetime.now()),  # timestamps r cool
+                "attack_type": k,
                 "log_entry": line.strip()
             })
 
-    if detected_threats:
-        save_to_json(detected_threats, "outputs/alerts.json")
+    if detected:
+        dumpJSON(detected, "outputs/alerts.json")
 
-    return detected_threats if detected_threats else None
+    return detected if detected else None
 
-# Real-time log monitoring
-class LogMonitor(FileSystemEventHandler):
-    def __init__(self, file_path):
-        self.file_path = file_path
-        self.last_size = os.path.getsize(file_path)
+# keep an eye on logs
+class LogWatcher(FileSystemEventHandler):
+    def __init__(self, fpath):
+        self.fpath = fpath
+        self.last_size = os.path.getsize(fpath)
 
     def on_modified(self, event):
-        if event.src_path == self.file_path:
-            with open(self.file_path, "r", encoding="utf-8") as file:
+        if event.src_path == self.fpath:
+            with open(self.fpath, "r", encoding="utf-8") as file:
                 file.seek(self.last_size)
                 new_lines = file.readlines()
-                self.last_size = os.path.getsize(self.file_path)
-                for line in new_lines:
-                    analyze_log_line(line)
+                self.last_size = os.path.getsize(self.fpath)
+                for l in new_lines:
+                    checkLogs(l)
 
-# Function to save detected threats to JSON
-def save_to_json(data, filename):
-    os.makedirs(os.path.dirname(filename), exist_ok=True)  # Ensure the output directory exists
+# save logs to json
+def dumpJSON(data, filename):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)  
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
-# Function to visualize log data
-def visualize_logs(log_data):
-    if not log_data:  # Check if the logs list is empty
-        logging.warning("No log data available for visualization.")
-        print("No log data available for visualization.")
+# show log stats
+def makeGraph(log_data):
+    if not log_data:
+        logging.warning("No logs, so no graph.")
+        print("Nothing to visualize.")
         return
     
     df = pd.DataFrame(log_data)
-
-    if "timestamp" not in df.columns:  # Ensure 'timestamp' exists
-        logging.error("Missing 'timestamp' column in log data")
-        print("Error: Missing 'timestamp' column in log data")
+    
+    if "timestamp" not in df.columns:
+        logging.error("Uhh where's the 'timestamp' field??")
+        print("Error: Timestamp missing.")
         return
 
     df["timestamp"] = pd.to_datetime(df["timestamp"])
@@ -119,42 +114,41 @@ def visualize_logs(log_data):
 
     plt.figure(figsize=(10, 5))
     attack_counts.plot(kind="bar", color="red")
-    plt.title("Detected Security Threats")
+    plt.title("Bad Stuff in Logs")
     plt.xlabel("Attack Type")
     plt.ylabel("Count")
-    os.makedirs("outputs", exist_ok=True)  # Ensure output directory exists
-    plt.savefig("outputs/log_analysis_graph.png")
+    os.makedirs("outputs", exist_ok=True)
+    plt.savefig("outputs/log_graph.png")
     plt.show()
 
 
-# Main Function
+# actually run stuff
 if __name__ == "__main__":
-    log_file = "example_logs/server.log"
+    logfile = "example_logs/server.log"
 
-    # Ensure output directory exists
     os.makedirs("outputs", exist_ok=True)
 
-    # Start real-time monitoring
-    event_handler = LogMonitor(log_file)
-    observer = Observer()
-    observer.schedule(event_handler, path=os.path.dirname(log_file), recursive=False)
-    observer.start()
+    # start watching logs
+    watch = LogWatcher(logfile)
+    obs = Observer()
+    obs.schedule(watch, path=os.path.dirname(logfile), recursive=False)
+    obs.start()
 
-    # Parse initial logs
-    logs = parse_log(log_file)
+    # scan existing logs
+    logs = get_logs(logfile)
 
-    print(f"Total logs processed: {len(logs)}")
-if len(logs) > 0:
-    print("First few logs:", logs[:5])  # Print first 5 logs for debugging
+    print(f"Total logs checked: {len(logs)}")
+    if len(logs) > 0:
+        print("First few:", logs[:5])
 
-# Flatten the list of lists before passing to pandas DataFrame
-flat_logs = [entry for sublist in logs for entry in (sublist if isinstance(sublist, list) else [sublist])]
+# flatten nested lists before putting into pandas
+flat_logs = [e for sublist in logs for e in (sublist if isinstance(sublist, list) else [sublist])]
 
-if flat_logs:  # Ensure there is data before visualization
-    visualize_logs(flat_logs)
+if flat_logs:
+    makeGraph(flat_logs)
 else:
-    print("No valid log entries found.")
+    print("no bad logs found? huh.")
 
-    # Visualize log data
-    if logs:
-        visualize_logs(logs)
+# just in case
+if logs:
+    makeGraph(logs)
